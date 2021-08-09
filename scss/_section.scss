@@ -1,0 +1,49 @@
+.section {
+  padding: 40px;
+  background-color: rgb(121, 117, 117);
+
+  .section__titulo2 {
+    margin: 30px 5px;
+    text-transform: $mayuscula;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: blue;
+  }
+  .section__titulo3 {
+    margin: 30px 5px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: $mayuscula;
+  }
+
+  .section ul {
+    margin: 30px 5px;
+    list-style-type: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: rgb(247, 247, 247);
+  }
+  .section img {
+    width: 30rem;
+    border: $color;
+    border-style: solid;
+  }
+
+  .section__parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: aliceblue;
+    text-align: left;
+  }
+
+  .section__pdf {
+    width: 100%;
+    height: 600px;
+  }
+
+  .section__mapa {
+    margin-bottom: 2rem;
+  }
+}
