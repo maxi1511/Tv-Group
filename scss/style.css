@@ -238,6 +238,21 @@ body {
   color: blue;
 }
 
+.footer .footer__copy {
+  font-family: 'Times New Roman', Times, serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 1rem;
+}
+
 .legend {
   color: #eff3f7;
   font-size: 27px;

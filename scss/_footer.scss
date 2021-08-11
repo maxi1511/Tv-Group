@@ -25,7 +25,8 @@
 .footer__copy {
   font-family: 'Times New Roman', Times, serif;
   display: flex;
-  justify-content: end;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 1rem;
 }
 }
