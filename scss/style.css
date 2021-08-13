@@ -21,7 +21,7 @@
 }
 
 .header .header img {
-  width: 10rem;
+  width: 5rem;
 }
 
 .header .header i {
@@ -41,7 +41,7 @@
   background: linear-gradient(110deg, #c50000, white);
   border: #888484 2px solid;
   border-radius: 10px;
-  float: left;
+  float: inline-end;
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -49,7 +49,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  font-size: x-large;
+  font-size: large;
   font-family: "Times New Roman", Times, serif;
   -webkit-transition: color 2s;
   transition: color 2s;

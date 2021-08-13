@@ -13,7 +13,7 @@ $color: black;
   background-color: $color;
 
 .header img {
-  width: 10rem;
+  width: 5rem;
 }
 .header i {
   color: gray;
@@ -29,7 +29,7 @@ $color: black;
   background: linear-gradient(110deg, rgb(197, 0, 0), white);
   border: rgb(136, 132, 132) 2px solid;
   border-radius: 10px;
-  float: left;
+  float: inline-end;
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -37,7 +37,7 @@ $color: black;
   text-decoration: none;
   text-transform: $mayuscula;
   color: $color;
-  font-size: x-large;
+  font-size: large;
   font-family: "Times New Roman", Times, serif;
   transition: color 2s;
 }
