@@ -1,5 +1,4 @@
 .section {
-  padding: 40px;
   background-color: rgb(121, 117, 117);
 
   .section__titulo2 {
@@ -11,12 +10,17 @@
   }
   .section__titulo3 {
     margin: 30px 5px;
-    color: red;
+    color: rgb(179, 75, 6);
     font-family: Arial, Helvetica, sans-serif;
     text-transform: $mayuscula;
   }
 
-  .section ul {
+  .section__titulo5 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+  }
+  .section__menuProduccion {
     margin: 30px 5px;
     list-style-type: initial;
     display: flex;
@@ -24,12 +28,19 @@
     align-items: flex-start;
     justify-content: space-between;
     color: rgb(247, 247, 247);
+    text-decoration: none;
   }
-  .section img {
+  .section__menuMovil li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(204, 179, 179);
+    text-decoration: none;
+    list-style: none;
+  }
+  /*.section img {
     width: 30rem;
     border: $color;
     border-style: solid;
-  }
+  }*/
 
   .section__parrafo {
     font-family: Arial, Helvetica, sans-serif;
@@ -38,12 +49,23 @@
     text-align: left;
   }
 
+  .section__parrafo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
   .section__pdf {
-    width: 100%;
+    width: 80%;
     height: 600px;
+    margin: 3rem;
   }
 
   .section__mapa {
     margin-bottom: 2rem;
   }
+  .section__cards {
+  background-color: rgb(15, 15, 48);
+}
+.card-footer {
+  background-color: rgb(54, 53, 53);
+}
 }

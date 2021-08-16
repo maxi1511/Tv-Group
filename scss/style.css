@@ -124,8 +124,12 @@ body {
 }
 
 .section {
-  padding: 40px;
   background-color: #797575;
+  /*.section img {
+    width: 30rem;
+    border: $color;
+    border-style: solid;
+  }*/
 }
 
 .section .section__titulo2 {
@@ -138,12 +142,18 @@ body {
 
 .section .section__titulo3 {
   margin: 30px 5px;
-  color: red;
+  color: #b34b06;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 
-.section .section ul {
+.section .section__titulo5 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.section .section__menuProduccion {
   margin: 30px 5px;
   list-style-type: initial;
   display: -webkit-box;
@@ -160,12 +170,14 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #f7f7f7;
+  text-decoration: none;
 }
 
-.section .section img {
-  width: 30rem;
-  border: black;
-  border-style: solid;
+.section .section__menuMovil li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ccb3b3;
+  text-decoration: none;
+  list-style: none;
 }
 
 .section .section__parrafo {
@@ -175,13 +187,27 @@ body {
   text-align: left;
 }
 
+.section .section__parrafo1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
 .section .section__pdf {
-  width: 100%;
+  width: 80%;
   height: 600px;
+  margin: 3rem;
 }
 
 .section .section__mapa {
   margin-bottom: 2rem;
+}
+
+.section .section__cards {
+  background-color: #0f0f30;
+}
+
+.section .card-footer {
+  background-color: #363535;
 }
 
 .footer {
@@ -264,12 +290,6 @@ body {
 .bigicon {
   font-size: 35px;
   color: #36a0ff;
-}
-
-.galeriaProduccion img {
-  width: 20rem;
-  border: solid black;
-  border-radius: 25px;
 }
 
 .produccion12 img {
