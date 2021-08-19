@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="../css/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/Grouptv.css">
   <link rel="stylesheet" href="../scss/style.css">
-  <meta name="description" content="GroupTV  es una empresa Argentina dedicada a la producción y transmisión satelital de eventos televisivos, incorporando tecnología de última generación.">
+  <meta name="description"
+    content="GroupTV  es una empresa Argentina dedicada a la producción y transmisión satelital de eventos televisivos, incorporando tecnología de última generación.">
   <meta name="keywords"
     content="television, televisión, movil, móvil, camara, cámara, eventos, servicio de produccion, servicio de produción, producciones, satelital">
 </head>
@@ -20,27 +21,36 @@
   <header class="header">
     <img src="../assets/Marca-PNG.png" alt="logo">
     <h1 class="header__titulo"> Producciones</h1>
-    <div class="header__nav" id="myTopnav">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
 
-      <a class="header__navMenu--texto" href="../index.html">INICIO</a>
-      <a class="header__navMenu--texto" href="./Empresa.html">EMPRESA</a>
-      <a class="header__navMenu--texto" href="./Moviles.html">MOVILES</a>
-      <a class="header__navMenu--texto" href="./Producciones.html">PRODUCCIONES</a>
-      <a class="header__navMenu--texto" href="./formulario.html">CONTACTO</a></li>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-
-    </div>
-    <script>function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "header__nav") {
-          x.className += " responsive";
-        }
-        else {
-          x.className = "header__nav";
-        }
-      }</script>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav header__nav">
+            <li class="nav-item">
+              <a class="nav-link header__navMenu--texto" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__navMenu--texto" href="../html/Empresa.html">Empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__navMenu--texto" href="../html/Moviles.html">Moviles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active header__navMenu--texto" aria-current="page"
+                href="../html/Producciones.html">Producciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__navMenu--texto" href="../html/formulario.html">CONTACTO</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <section class="section">
     <h2 class="section__texto2">Algunas producciones y clientes</h2>
