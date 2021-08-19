@@ -16,21 +16,25 @@
   color: gray;
   font-size: 2rem;
 }
+.header__navMenu--texto :hover {
+  color: gold;
+}
 .header__navMenu--texto {
-  background: linear-gradient(110deg, rgb(197, 0, 0), white);
-  border: rgb(136, 132, 132) 2px solid;
+  color: black;
+  background: linear-gradient(250deg, rgb(28, 2, 102), rgb(2, 1, 65));
+  border: rgb(236, 229, 229) 2px solid;
   border-radius: 10px;
-  float: left;
+  float: inline-end;
   display: block;
   text-align: center;
   padding: 14px 16px;
   margin: 5px;
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(26, 26, 26);
-  font-size: x-large;
+  color: black;
+  font-size: large;
   font-family: "Times New Roman", Times, serif;
-  transition: color 2s;
+  transition: color 3s;
 }
 .header__titulo {
   display: flex;
