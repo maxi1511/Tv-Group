@@ -20,8 +20,8 @@
   background-color: black;
 }
 
-.header .header img {
-  width: 5rem;
+.header .header__logo {
+  width: 10rem;
 }
 
 .header .header i {
@@ -138,6 +138,7 @@ body {
           justify-content: space-between;
   color: #f7f7f7;
   text-decoration: none;
+  list-style: outside;
 }
 
 .section .section__menuMovil li {
