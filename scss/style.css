@@ -97,6 +97,12 @@ body {
     border: $color;
     border-style: solid;
   }*/
+  /*.section__clientes {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+  align-items: stretch;
+}*/
 }
 
 .section .section__titulo2 {
