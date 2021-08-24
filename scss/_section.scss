@@ -7,18 +7,20 @@
     font-size: 30px;
     font-family: "Times New Roman", Times, serif;
     color: blue;
+    text-align: center;
   }
   .section__titulo3 {
     margin: 30px 5px;
     color: rgb(179, 75, 6);
     font-family: Arial, Helvetica, sans-serif;
     text-transform: $mayuscula;
+    text-align: center;
   }
 
   .section__titulo5 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
+    text-transform: $mayuscula;
   }
   .section__menuProduccion {
     margin: 30px 5px;
@@ -47,7 +49,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     color: aliceblue;
-    text-align: left;
+    text-align: center;
+    margin: 2rem;
   }
 
   .section__parrafo1 {
