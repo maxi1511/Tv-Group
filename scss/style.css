@@ -176,6 +176,12 @@ body {
   margin: 3rem;
 }
 
+@media (max-width: 600px) {
+  .section .section__pdf {
+    display: none;
+  }
+}
+
 .section .section__contenedorPdf {
   display: -webkit-box;
   display: -ms-flexbox;

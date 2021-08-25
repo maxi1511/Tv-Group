@@ -63,6 +63,12 @@
     margin: 3rem;
   }
 
+  @media (max-width: 600px) {
+    .section__pdf {
+      display: none;
+    }
+  }
+
   .section__contenedorPdf {
     display: flex;
     justify-content: center;
