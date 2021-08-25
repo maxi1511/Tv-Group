@@ -176,6 +176,15 @@ body {
   margin: 3rem;
 }
 
+.section .section__contenedorPdf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .section .section__mapa {
   margin-bottom: 2rem;
 }
@@ -256,6 +265,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-right: 1rem;
+  margin-top: 1rem;
 }
 
 .legend {

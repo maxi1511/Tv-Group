@@ -63,16 +63,22 @@
     margin: 3rem;
   }
 
+  .section__contenedorPdf {
+    display: flex;
+    justify-content: center;
+  }
+
   .section__mapa {
     margin-bottom: 2rem;
   }
+
   .section__cards {
-  background-color: rgb(15, 15, 48);
-}
-.card-footer {
-  background-color: rgb(54, 53, 53);
-}
-/*.section__clientes {
+    background-color: rgb(15, 15, 48);
+  }
+  .card-footer {
+    background-color: rgb(54, 53, 53);
+  }
+  /*.section__clientes {
   display: flex;
   flex-direction: row;
   justify-content: unset;
