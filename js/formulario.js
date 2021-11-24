@@ -214,20 +214,20 @@ $("#nombre, #apellido, #email, #telefono, #camaras, #satelital").hover(function(
     $(this).css("background-color", "white");
   });  
   
-  const settings = {
-	"async": true,
-	"crossDomain": true,
-	"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=-32.98&lon=-68.87",
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "weatherbit-v1-mashape.p.rapidapi.com",
-		"x-rapidapi-key": "3f574c6ab2msh428eefde685fdc6p122517jsnf964105abe63"
-	}
-};
+//   const settings = {
+// 	"async": true,
+// 	"crossDomain": true,
+// 	"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=-32.98&lon=-68.87",
+// 	"method": "GET",
+// 	"headers": {
+// 		"x-rapidapi-host": "weatherbit-v1-mashape.p.rapidapi.com",
+// 		"x-rapidapi-key": "3f574c6ab2msh428eefde685fdc6p122517jsnf964105abe63"
+// 	}
+// };
 
-$.ajax(settings).done(function (response) {
-	console.log(response);
-});
+// $.ajax(settings).done(function (response) {
+// 	console.log(response);
+// });
 
 
          
