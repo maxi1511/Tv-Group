@@ -203,6 +203,10 @@ body {
   background-color: #363535;
 }
 
+.cajaFormulario {
+  background-color: gray;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -286,6 +290,11 @@ body {
 .bigicon {
   font-size: 35px;
   color: #36a0ff;
+}
+
+.submit {
+  margin-top: 2rem;
+  margin-right: 25rem;
 }
 
 .produccion12 img {

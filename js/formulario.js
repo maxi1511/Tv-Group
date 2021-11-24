@@ -83,9 +83,9 @@ function crearFormulario (contenedor) {
                                 </div>
 
 
-                                <div class="form-group">
+                                <div class="submit form-group">
                                     <div class="col-md-12 text-center">
-                                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                                     </div>
                                 </div>
                             </fieldset>
@@ -214,7 +214,20 @@ $("#nombre, #apellido, #email, #telefono, #camaras, #satelital").hover(function(
     $(this).css("background-color", "white");
   });  
   
- 
+  const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=-32.98&lon=-68.87",
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "weatherbit-v1-mashape.p.rapidapi.com",
+		"x-rapidapi-key": "3f574c6ab2msh428eefde685fdc6p122517jsnf964105abe63"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
 
 
          
