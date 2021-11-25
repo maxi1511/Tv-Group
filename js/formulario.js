@@ -27,7 +27,7 @@ function crearFormulario (contenedor) {
                                     <span class="col-md-1 col-md-offset-2 text-center"><i
                                             class="fa fa-user bigicon"></i></span>
                                     <div class="col-md-8">
-                                        <input id="apellido" name="name" type="text" placeholder="Apellido"
+                                        <input id="apellido" name="apellido" type="text" placeholder="Apellido"
                                             class="form-control">
                                     </div>
                                 </div>
@@ -133,14 +133,14 @@ function validarFormulario (e) {
         return false;
         
     } 
-    if (selectCamaras.val() === '') {
+    if (selectCamaras.val() === '' || selectCamaras.val() === 'Seleccione cantidad de cámaras') {
         alert('Ingrese una opción correcta')
         selectCamaras.focus();
         return false;
         
     }
-    if (selectSatelital.val() === '') {
-        alert('Ingrese suna opción correcta')
+    if (selectSatelital.val() === '' || selectSatelital.val() === '¿Desea contratar satelital?') {
+        alert('Ingrese una opción correcta')
         selectSatelital.focus();
         return false;
         
