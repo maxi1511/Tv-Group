@@ -330,6 +330,18 @@ body {
           align-items: flex-end;
 }
 
+#contenedorCard {
+  background-color: #343472;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-header {
+  color: #5a0008;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .produccion12 img {
   width: 20rem;
 }

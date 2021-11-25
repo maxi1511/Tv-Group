@@ -190,9 +190,9 @@ function crearCard(clientes, contenedor){
             `
             <h3>Datos Cliente</h3>
             <div id="contenedorCard" class="card border-secondary mb-3" style="max-width: 18rem;">
-                <div class="card-header">Nombre completo: ${cliente.nombre} ${cliente.apellido}</div>
+                <div class="card-header">Cliente: ${cliente.nombre} ${cliente.apellido}</div>
                 <div class="card-body text-secondary">
-                    <h5 class="card-title">Telefono: ${cliente.telefono}</h5>
+                    <p class="card-title">Telefono: ${cliente.telefono}</p>
                     <p class="card-text">Email: ${cliente.email}</p>
                     <p class="card-text">Cantidad de Camaras ${cliente.camaras}</p>
                     <p class="card-text">Satelital: ${cliente.satelital}</p>
