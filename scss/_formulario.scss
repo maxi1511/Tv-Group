@@ -17,3 +17,29 @@
     margin-right: 25rem;
   
   }
+
+  .provincia {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(2, 2, 73);
+    font-size: xx-large;
+    font-style: oblique;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+
+  .temperatura {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(136, 1, 1);
+    font-size: xx-large;
+    font-style: oblique;
+    margin-right: 2rem;
+  }
+
+  #divClima {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+  }
