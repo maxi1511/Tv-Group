@@ -1,32 +1,4 @@
-/* Clases */
-
-
-// class Movil {
-    
-//     constructor(id, camaras, satelital, precio) {
-
-//         this.id = id;
-//         this.camaras = camaras;
-//         this.satelital = satelital;
-//         this.precio = precio;
-
-//     }
-
-//     getCamara () {
-
-//         return this.camaras;
-//     }
-
-//     getId () {
-
-//         return this.id;
-//     }
-
-//     getPrecio () {
-//         return this.precio * this.camaras
-//     }
-
-// }
+/* Clase constructora de cliente*/
 
 class Cliente {
 

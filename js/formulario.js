@@ -1,11 +1,20 @@
+// creando variables de los contenedores en html//
+
 const contenedorFormulario = $('#divFormulario');
 const contenedorClientes = $('#divClientes');
+
+// array de clientes//
+
 let clientes = [];
+
+// guardando el array de clientes en el local storege//
 
 if (localStorage.getItem('clientes')) {
     let clientes = JSON.parse(localStorage.getItem('clientes'));
     crearCard(clientes, contenedorClientes);
 }
+
+// creando el formulario dinámico//
 
 function crearFormulario (contenedor) {
 
@@ -93,8 +102,11 @@ function crearFormulario (contenedor) {
 `);
 }
 
+// creando el formulario//
+
 crearFormulario(contenedorFormulario);
 
+// definiendo variables del formulario//
 
 const formulario = $('#formulario');
 const inputNombre = $('#nombre');
@@ -104,7 +116,11 @@ const inputTelefono = $('#telefono');
 const selectCamaras = $('#selCam');
 const selectSatelital = $('#selSat');
 
+// validacion de mi formulario//
+
 formulario.submit(validarFormulario);
+
+// función para validar las variables//
 
 function validarFormulario (e) {
     e.preventDefault();
@@ -153,11 +169,14 @@ let telefono = inputTelefono.val();
 let camaras = selectCamaras.val();
 let satelital = selectSatelital.val();  
 
+// reseteando formulario//
 formulario[0].reset();
 
 crearCliente(nombre, apellido, email, telefono, camaras, satelital);
 
 }
+
+// función para crear los clientes//
 
 function crearCliente(nombre, apellido, email, telefono, camaras, satelital){
 
@@ -169,15 +188,20 @@ function crearCliente(nombre, apellido, email, telefono, camaras, satelital){
     crearCard(clientes, contenedorClientes);
 }
 
+// función para guardar los clientes en el local storage//
+
 function guardarLocalStorage(clave, valor){
     localStorage.setItem(clave, JSON.stringify(valor));
 }
+
+// recuperando los clientes del local storage//
 
 function recuperarLocalStorage(clave){
     const clientes = JSON.parse(localStorage.getItem(clave));
     return clientes
 }
 
+//creando tarjeta de clientes ingresados//
 
 function crearCard(clientes, contenedor){
 
@@ -204,7 +228,7 @@ function crearCard(clientes, contenedor){
 }
 
 
-
+// agregando animaciones al formulario//
   
 $("#nombre, #apellido, #email, #telefono, #camaras, #satelital").hover(function(){
   
@@ -213,7 +237,8 @@ $("#nombre, #apellido, #email, #telefono, #camaras, #satelital").hover(function(
 
     $(this).css("background-color", "white");
   });  
-  
+ 
+  // aplicando una api del clima//
 
       $.ajax({
         url: 'http://api.weatherstack.com/current',
